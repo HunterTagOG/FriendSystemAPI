@@ -1,0 +1,6 @@
+name: FriendSystemPlugin
+version: '${project.version}'
+main: de.huntertagog.locobroko.FriendSystemPlugin
+api-version: '1.20'
+depend:
+  - HeadDatabase

@@ -1,0 +1,85 @@
+# ----------------------
+## ITEM LANGUAGES
+# ----------------------
+
+Item_Left:
+  id: "10678"
+  name: "Nach Links"
+
+Item_Right:
+  id: "10675"
+  name: "Nach Rechts"
+
+FA_PlayerItem:
+  anfragezeit: "Anfrage vor"
+  ablaufzeit: "Läuft ab in"
+
+FA_SuccessItem:
+  name: "§6Freundschaftsanfrage §aakzeptieren"
+
+Home_Item:
+  id: "8791"
+  name: "Zurück"
+
+Request_Item:
+  name: "Freundschaftsanfragen"
+  anfragen: "Anfragen"
+
+SA_AbortItem:
+  name: "§6Statusänderung §cabbrechen"
+
+SA_SuccessItem:
+  name: "§6Statusänderung §abestätigen"
+
+SettingsItem:
+  name: "§r§cEinstellungen"
+
+SortierungsItem:
+  name: "Sortierung"
+  sortierung: "Aktuelle Sortierung"
+
+StatusItem:
+  name: "§r§6Status ändern"
+
+ToggleMessageItem:
+  name: "§r§6Nachrichten aktivieren/deaktivieren"
+
+ToggleNotifyItem:
+  name: "§r§6Join/Leave Nachrichten aktivieren/deaktivieren"
+
+ToggleRequestItem:
+  name: "§r§6Freundesanfragen aktivieren/deaktivieren"
+
+ToggleTeleportItem:
+  name: "§r§6Teleportanfragen aktivieren/deaktivieren"
+
+# ----------------------
+## GUI LANGUAGES
+# ----------------------
+
+FA_PlayerGui:
+  name: "§6Gewählter Spieler §7 - §6 "
+
+MainGui:
+  name: "§6Freunde Menü"
+  online: "Du bist online seit"
+  status: "Dein Status"
+  friendcode: "Dein Freundcode"
+
+RequestGui:
+  name: "§9Freundschaftsanfragen"
+
+SettingsGui:
+  name: "§cEinstellungen"
+  toggleinvites_true: "§r§6Freundesanfragen sind §aaktiviert"
+  toggleinvites_false: "§r§6Freundesanfragen sind §cdeaktiviert"
+  togglenotify_true: "§r§6Join/Leave-Nachrichten sind §aaktiviert"
+  togglenotify_false: "§r§6Join/Leave-Nachrichten sind §cdeaktiviert"
+  togglejump_true: "§r§6Teleportanfragen sind §aaktiviert"
+  togglejump_false: "§r§6Teleportanfragen sind §cdeaktiviert"
+  togglemsgs_true: "§r§6Nachrichten sind §aaktiviert"
+  togglemsgs_false: "§r§6Nachrichten sind §cdeaktiviert"
+
+StatusGui:
+  name: "Status bearbeiten"
+  aktuell: "Dein aktueller Status:"

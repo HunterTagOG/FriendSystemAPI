@@ -1,0 +1,15 @@
+# ----------------------
+## CHANNEL SECRET
+# ----------------------
+
+secret: ""
+
+# ----------------------
+## DATABASE CONNECTION
+# ----------------------
+
+database:
+  url: "jdbc:mysql://172.17.0.1:3306/s7_friendsystem"
+  user: "u7_F9wn6yUF3P"
+  password: "nUY38eg7RC86=8TIrS!WBu^K"
+
