@@ -24,13 +24,14 @@ public final class FriendSystemPlugin extends JavaPlugin implements CommandExecu
     public static FriendSystemPlugin instance;
     private FileConfiguration config;
     private FileConfiguration messages;
+    @Getter
+    private FriendSystemAPI api;
 
     @Override
     public void onEnable() {
 
         instance = this;
-
-        FriendSystemAPI.init(this);
+        api = new FriendSystemAPI();
 
         try {
             loadConfig();
