@@ -33,7 +33,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>de.huntertagog.FriendSystemPlugin.MainClass</mainClass>
+                  <mainClass>de.huntertagog.locobroko.FriendSystemPlugin</mainClass>
                 </transformer>
               </transformers>
             </configuration>
