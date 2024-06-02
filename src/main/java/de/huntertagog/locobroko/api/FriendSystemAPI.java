@@ -2,11 +2,10 @@ package de.huntertagog.locobroko.api;
 
 import de.huntertagog.locobroko.FriendSystemPlugin;
 import de.huntertagog.locobroko.renders.MainGui;
-import lombok.Getter;
 import org.bukkit.entity.Player;
 
 public class FriendSystemAPI {
-    @Getter
+
     private static FriendSystemAPI instance;
     private final FriendSystemPlugin plugin;
 
@@ -18,6 +17,13 @@ public class FriendSystemAPI {
         if (instance == null) {
             instance = new FriendSystemAPI(plugin);
         }
+    }
+
+    public static FriendSystemAPI getInstance() {
+        if (instance == null) {
+            throw new IllegalStateException("FriendSystemAPI is not enabled");
+        }
+        return instance;
     }
 
     public void openFriendGUI(Player player) {
